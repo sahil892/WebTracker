@@ -112,6 +112,7 @@ public class DemoAppConfig implements WebMvcConfigurer {
 		// create session factorys
 		LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 		System.out.println("Dummy");
+		System.out.println("Dummy");
 		// set the properties
 		sessionFactory.setDataSource(myDataSource());
 		sessionFactory.setPackagesToScan(env.getProperty("hibernate.packagesToScan"));
